@@ -1,0 +1,147 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Iva",
+      "email": "ivadimitrova@abv.bg",
+      "password": "123456",
+      "isAdmin": true
+    },
+    {
+      "username": "Iva2107",
+      "password": "123456",
+      "email": "ivadimitrova98@abv.bg",
+      "isAdmin": true,
+      "id": 2
+    },
+    {
+      "username": "Iva",
+      "password": "123456",
+      "email": "ivadimitrova2107@abv.bg",
+      "isAdmin": false,
+      "id": 3
+    },
+    {
+      "username": "username",
+      "password": "123456",
+      "email": "asd@abv.bg",
+      "isAdmin": false,
+      "id": 10
+    },
+    {
+      "username": "asd",
+      "password": "12345trt",
+      "email": "ABC@abv.bg",
+      "isAdmin": false,
+      "id": 11
+    },
+    {
+      "username": "asdasdas",
+      "password": "dsdsa121",
+      "email": "asdsa@sda.bg",
+      "isAdmin": false,
+      "id": 12
+    },
+    {
+      "username": "1701321040",
+      "password": "123456",
+      "email": "Test@abv.bg",
+      "isAdmin": false,
+      "id": 14
+    },
+    {
+      "username": "user2222",
+      "password": "1234567",
+      "email": "email@abv.bg",
+      "isAdmin": false,
+      "id": 17
+    }
+  ],
+  "tasks": [
+    {
+      "userId": 1,
+      "id": 1,
+      "taskName": "task1",
+      "taskDescription": "description",
+      "evaluation": "3",
+      "taskStatus": "Completed"
+    },
+    {
+      "id": 2,
+      "taskName": "Task22222",
+      "taskDescription": "descriptio",
+      "evaluation": "2",
+      "taskStatus": "COMPLETED",
+      "userId": 1,
+      "loggedUser": {
+        "id": 1,
+        "username": "Iva",
+        "email": "ivadimitrova@abv.bg",
+        "password": "123456",
+        "isAdmin": true
+      }
+    },
+    {
+      "id": 8,
+      "taskName": "task2",
+      "taskDescription": "task",
+      "evaluation": "3",
+      "taskStatus": "PENDING",
+      "userId": 1
+    },
+    {
+      "id": 9,
+      "taskName": "sdcsdcsdvfd",
+      "taskDescription": "task",
+      "evaluation": "1",
+      "taskStatus": "PENDING",
+      "userId": 1
+    },
+    {
+      "id": 10,
+      "taskName": "sdcsdcsdvfd",
+      "taskDescription": "sdfasdfdfdgfdgfdsgfd",
+      "evaluation": "1",
+      "taskStatus": "PENDING",
+      "userId": 3
+    },
+    {
+      "id": 11,
+      "taskName": "Task22222fdsdfsdf",
+      "taskDescription": "sdfasdfdfdgfdgfdsgfd",
+      "evaluation": "1",
+      "taskStatus": "COMPLETED",
+      "userId": 3,
+      "loggedUser": {
+        "username": "Iva",
+        "password": "123456",
+        "email": "ivadimitrova2107@abv.bg",
+        "isAdmin": false,
+        "id": 3
+      }
+    },
+    {
+      "id": 12,
+      "taskName": "assddd",
+      "taskDescription": "sdfasdfdfdgfdgfdsgfd",
+      "evaluation": "1",
+      "taskStatus": "PENDING",
+      "userId": 3
+    },
+    {
+      "id": 13,
+      "taskName": "sdcsdcsdvfd",
+      "taskDescription": "description2",
+      "evaluation": "1",
+      "taskStatus": "COMPLETED",
+      "userId": 3,
+      "loggedUser": {
+        "username": "Iva",
+        "password": "123456",
+        "email": "ivadimitrova2107@abv.bg",
+        "isAdmin": false,
+        "id": 3
+      }
+    }
+  ]
+}
